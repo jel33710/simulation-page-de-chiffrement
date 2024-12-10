@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de Rançon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 1em 0;
+        }
+        main {
+            padding: 2em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #222;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #ff0000;
+            font-size: 2.5em;
+        }
+        p {
+            color: #fff;
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+        .button {
+            display: inline-block;
+            background-color: #ff0000;
+            color: white;
+            padding: 1em 2em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 2em;
+            font-size: 1.2em;
+        }
+        .button:hover {
+            background-color: #cc0000;
+        }
+        .svg-container {
+            margin-top: 2em;
+        }
+        .blinking {
+            color: #ff0000;
+            font-size: 1.5em;
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Attention ! Votre système a été chiffré !</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Demande de Rançon</h2>
+            <p>Votre système a été chiffré par un ransomware. Tous vos fichiers sont maintenant inaccessibles.</p>
+            <p>Pour récupérer l'accès à vos fichiers, vous devez payer une rançon de 1000 € en Bitcoin.</p>
+            <p>Suivez les instructions ci-dessous pour effectuer le paiement :</p>
+            <p>1. Achetez 1000 € en Bitcoin.</p>
+            <p>2. Envoyez les Bitcoins à l'adresse suivante : 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</p>
+            <p>3. Après confirmation du paiement, vous recevrez la clé de déchiffrement.</p>
+            <p>Ne tentez pas de récupérer vos fichiers par vous-même. Toute tentative de récupération sans la clé de déchiffrement entraînera la perte définitive de vos données.</p>
+            <div class="svg-container">
+                <svg width="200" height="200" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1C18.09 1 23 5.91 23 12C23 18.09 18.09 23 12 23C5.91 23 1 18.09 1 12C1 5.91 5.91 1 12 1ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z" fill="#FF0000"/>
+                </svg>
+            </div>
+            <a href="https://dcod.ch/2016/12/07/le-chiffrement-cest-quoi-lanssi-repond/" class="button">En savoir plus</a>
+            <p class="blinking">SIMULATION</p>
+        </div>
+    </main>
+</body>
+</html>
